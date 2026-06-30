@@ -1,3 +1,7 @@
+<Module>
+    <ModulePrefs title="classroom" />
+    <Content type="html">
+        <![CDATA[
 <html lang="en-us"><head><style>
   /* Esconde a div principal do anúncio no topo */
   #ad-container {
@@ -187,7 +191,7 @@ body {
 <!-- Additional body modules -->
 <script>
         const hideFullScreenButton = "";
-        const buildUrl = "https://cdn.jsdelivr.net/gh/papamamia/qarama@main/Build";
+        const buildUrl = "https://cdn.jsdelivr.net/gh/Usonul/Sys@19d2fe7";
         const loaderUrl = buildUrl + "/OSP.loader.js";
         // Orijinal dataUrl pasif hale getirildi - bölünen partlar ile değiştirildi
         // const config = {
@@ -484,4 +488,7 @@ function RewardedShow(rewardId) {
 })();
 </script>
 
-<script src="OSP.loader.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Usonul/Sys@19d2fe7/OSP.loader.js"></script>
+]]>
+    </Content>
+</Module>
